@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    padding: 0px;  
+}
+
+hr {
+    margin-bottom: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.233);
+    margin-left: 5%;
+    width: 88%;
+}
+
+:root {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contenedor {
+    display: grid;
+    grid-template-rows: 1.2fr 1fr 1fr;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.281);
+    width: 330px;
+    height: 400px;
+}
+
+.contenedorImagen {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.contenedorInput {
+    display: grid;
+    align-items: center;
+    grid-template-rows: 1fr 1fr;
+}
+
+.contenedorBotones {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.input {
+    margin-top: 10px;
+    width: 88%;
+    height: 40px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.356);
+    
+}
+
+.enlaces {
+    font-size: 13px;
+}
+
+#titulo {
+    margin-top: 18px;
+}
+
+#botonEntrar {
+    margin-left: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(54, 41, 170);
+    color: white;
+    cursor: pointer;
+
+    border: none;
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+    font-size: 11px;
+    
+}
+
+#iconoLlave  {
+    width: 20px;
+    height: 15px;
+}
+
+#candado {
+    width: 50px;
+    height: 50px;
+}
